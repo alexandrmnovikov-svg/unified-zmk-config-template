@@ -561,3 +561,12 @@
         };
     };
 };
+{
+    sensors {
+        compatible = "zmk,sensors";
+
+        encoder_left {
+            bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+    };
+};
